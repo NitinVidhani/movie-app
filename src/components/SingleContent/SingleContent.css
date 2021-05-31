@@ -1,0 +1,33 @@
+.singleContent {
+	display: flex;
+	flex-direction: column;
+	width: 16rem;
+	padding: 0.3rem;
+	background-color: var(--primary-dark);
+	margin: 1rem 0;
+	border-radius: 10px;
+	font-weight: 700;
+	font-family: "Raleway";
+	text-align: center;
+}
+.singleContent:hover {
+	background-color: var(--pure);
+	color: var(--primary-dark);
+}
+.singleContent__title {
+	display: flex;
+	justify-content: center;
+	padding: 0.75rem;
+}
+.singleContent__info {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-family: "Raleway" sans-serif;
+}
+
+@media (max-width: 550px) {
+	.singleContent {
+		width: 10rem;
+	}
+}

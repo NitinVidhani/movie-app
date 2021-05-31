@@ -1,0 +1,22 @@
+.header {
+	width: 100%;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	background-color: var(--primary);
+	color: var(--pure);
+	position: fixed;
+	z-index: 100;
+	font-size: 4vw;
+	padding: 1rem 0;
+	font-weight: 300;
+	font-family: "Raleway", sans-serif;
+	box-shadow: 0 1px 5px var(--dark);
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+	.header {
+		font-size: 6.5vw;
+	}
+}
